@@ -1,25 +1,19 @@
-
-body{
-    margin: 0;
-    padding: 0;
-
+body {
+    margin: 0; /* Elimina un margen exterior por defecto del navegador para usar la pantalla completa */
+    padding: 0; /* Elimina el espacio o relleno interior por defecto del navegador */
 }
 
-p{
-
-    background-color: rgb(115, 115, 255);
-    /* padding: 20px;
-    /* margin: 10px 0px 10px 0px; */
-    /* margin: 2px 20px; */
-    width: 200px;
-    height: 200px;
-    margin-left: 20px;
-    border: 5px solid red;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 50%;
-}
-
-@keyframes identifier {
+p {
+    background-color: rgb(115, 115, 255); /* Define el color de fondo azul para la caja */
     
+    padding: 20px; /* Establece el relleno interior (el espacio que hay entre el borde de la caja y el texto) */
+    margin: 10px 20px; /* Establece el margen exterior (10px arriba/abajo, 20px izquierda/derecha para separarlo de otros elementos) */
+    
+    width: 200px; /* Establece el ancho exacto del contenido de la caja */
+    height: 200px; /* Establece el alto exacto del contenido de la caja */
+    
+    border: 5px solid red; /* Agrega un borde de color rojo, de estilo sólido y de 5 píxeles de grosor */
+    border-radius: 50%; /* Redondea las esquinas de la caja al 50% provocando que se vea como un círculo */
+    
+    text-align: center; /* Centra el texto de manera horizontal dentro de cada caja */
 }
