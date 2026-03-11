@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12, 12, 12);
+}
+
+.container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 2rem 1rem;
+    justify-content: center;
+
+}
+.img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img:hover{
+    box-shadow: 0px 0px 30px aqua;
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: .5s ;
+    filter: grayscale(100%);
+}
+
+img:hover{
+    transform: scale(1.2);
+    transform: rotate(-5deg);
+    filter: brightness(150%);
+    filter: contrast(800px);
+}
+
