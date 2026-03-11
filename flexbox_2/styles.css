@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    height: 30rem;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    gap: 10px;
+
+    /* FLEX  */
+    display: flex;
+    /* Esto centra en el eje Principal */
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-wrap: wrap;
+    /* Esto centra en el eje cruzado */
+    /* align-items: end; */
+
+
+    /* Main axis */
+    /* Cross axis */
+
+}
+
+
+.box{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+
+
