@@ -1,0 +1,101 @@
+:root{
+    --main-color: rgb(139, 220, 255);
+    --second-color: rgb(14, 159, 221);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(21, 21, 21);
+    color: var(--main-color);
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+form{
+    background-color: rgb(21, 21, 21);
+    border: 1px solid var(--main-color);
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.303);
+    padding: 20px;
+    
+    width: 80%;
+    max-width: 700px;
+    margin: 5rem auto;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+
+input, label {
+    display: block;
+}
+
+
+
+label{
+    text-transform: uppercase;
+    color: var(--second-color);
+    margin: 0 10px ;
+    font-weight: bold;
+
+    }
+
+
+input, textarea{
+    margin: 10px auto;
+    padding: 7px 5px;
+    width: 90%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px var(--main-color);;
+    outline: none;
+    border: none;
+    border-left: 1.5px solid var(--main-color);
+    border-bottom: 1.5px solid var(--main-color);
+
+}
+
+input:focus{
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.444);
+    border: 1.5px solid var(--main-color);
+    
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.581);
+}
+
+
+fieldset{
+    margin: 10px;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 10px var(--main-color);
+    margin: 4rem;
+    border-radius: 5px;
+    border-color: gray;
+    border: 1px solid var(--main-color);
+}
+
+legend{
+    color: rgb(6, 150, 221);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+textarea::placeholder{
+    color: rgb(158, 158, 158);
+}
+
+textarea{
+    resize: vertical;
+    min-height: 100px;
+    max-height: 150px;
+}
